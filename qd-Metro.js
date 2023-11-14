@@ -1,7 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-obj.data.tipAds = [];
+obj.data.topAds = [];
 obj.data.ads = {};
 body = JSON.stringify(obj);
 
